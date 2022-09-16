@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { AufgabeZweiComponent } from './aufgabe-zwei/aufgabe-zwei.component';
+import { BasicAssignmentComponent } from './aufgabe-basic-assignment/basic-assignment.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { AufgabeZweiComponent } from './aufgabe-zwei/aufgabe-zwei.component';
     ServerComponent,
     ServersComponent,
     AufgabeZweiComponent,
+    BasicAssignmentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

@@ -1,0 +1,15 @@
+<br /><br />
+<hr />
+<br />
+<button class="btn" (click)="toggleButton()">Display Details</button>
+<p *ngIf="showParagraph">'Secret Passwort = Moin'</p>
+
+<div
+  *ngFor="let buttonClick of buttonClicks; let index = index"
+  [ngStyle]="{
+    backgroundColor: index > 4 ? 'blue' : 'transparent'
+  }"
+  [ngClass]="{ mewmew: index > 4 }"
+>
+  {{ buttonClick }}
+</div>
